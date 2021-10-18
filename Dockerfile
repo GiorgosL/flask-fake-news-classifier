@@ -7,7 +7,7 @@ RUN pip install -r requirements.txt && \
 
 EXPOSE 80
 
-WORKDIR /Users/Giorgos/Documents/Python/classifier
+WORKDIR ./classifier
 
 COPY ./ classifier
 
